@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman's personal site</title>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.yellow-mode {
+  background: yellow;
+  color: red;
+}
+
+.rgb-mode {
+  background: rgb(red, green, blue);
+  color: black;
+}
+
+.batman-mode {
+  background-image: url(https://i.pinimg.com/736x/62/9e/c1/629ec155855694779a2a49b80341654b--comic-book-superheroes-batman-comic-books.jpg);
+  color: yellow;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+</style>
+</head>
+<body>
+  <table>
+    <tr>
+      <td><a href="https://youtu.be/NLOp_6uPccQ" target="_balnk"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.R_zG7xo9MGYSzYr2E2BxDQHaJQ%26pid%3DApi&f=1" alt="batman"></a></td>
+      <td>    
+        <h1>Batman</h1>
+        <p><em>This is my <strong>site</strong></em></p>
+        <p>i am lerning how to creat and develop website</p>
+        <a href=""></a>
+        <p><a href="https://duckduckgo.com/?q=batman&t=raspberrypi&ia=web" target="_blank">click here</a> to know my self</p>
+        <hr size="3" noshade="0">
+        <h3>Education</h3>
+        <ul>
+            <li>complete MARVEL</li>
+            <li></li>
+        </ul>
+        <hr size="3" noshade="0">
+        <a href="hobbie.html" target="_blank">My Hobbies </a>
+        <hr size="3" noshade="0">
+        <strong><a href="contact.html" target="_blank">Contact me</a></strong>
+        <hr size="3" noshade="0">
+        <a href="table.html" target="_blank">table</a>
+        <hr size="3" noshade="0"></td>
+    </tr>
+    <td></td>
+  </table>    
+<button onclick="myFunction()">dark mode</button>
+<button onclick="myFunction1()">yellow mode</button>
+<button onclick="myFunction2()">rgb mode</button>
+<button onclick="myFunction3()">Batman</button>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+
+function myFunction1() {
+  var element = document.body;
+  element.classList.toggle("yellow-mode");
+}
+
+function myFunction2() {
+  var element = document.body;
+  element.classList.toggle("rgb-mode")
+}
+
+function myFunction3() {
+  var element = document.body;
+  element.classList.toggle("batman-mode")
+}
+</script>
+</body>
+</html>
